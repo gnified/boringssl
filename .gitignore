@@ -1,16 +1,3 @@
-/b2
-/b2.exe
-/bin.v2
-/bjam
-/bjam.exe
-/bootstrap.log
-/dist
-/project-config.jam
-/stage
-/user-config.jam
-/.settings/
-/.project
-/.pydevproject
-
-**/doc/*
-*.html
+# Prevent --force and --delete_unversioned_trees from deleting /src
+# over and over again.
+/src
